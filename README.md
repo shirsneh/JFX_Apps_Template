@@ -1,7 +1,7 @@
 # JavaFX Simple Applications:
 
 
-Please run jar file with command line : java -jar Calculator.jar or double click on the file.
+Please run jar file with command line : java -jar JFXApps.jar or double click on the file.
 
 Main Screen: 
 
