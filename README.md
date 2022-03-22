@@ -1,15 +1,36 @@
+# JavaFX Simple Applications:
+
+
+Please run jar file with command line : java -jar JFXApps.jar or double click on the file.
+
+# Main Screen: 
+
+![image](https://user-images.githubusercontent.com/84031027/159486917-30bc5e29-edbf-4644-9297-53e7df0de69f.png)
+
+# Clock
+
+Running Digital clock:
+
+![image](https://user-images.githubusercontent.com/84031027/159486971-f0040221-a5c7-4bc2-8e8e-4f8a7105532a.png)
+
+
 # Calculator
+
 Calculator with 2 modes : decimal and Hexadecimal.
 
-Please run jar file with command line : java -jar Calculator.jar or double click on the file.
+![image](https://user-images.githubusercontent.com/84031027/159487226-2d2afa0c-77c7-44e0-864d-23e73083147d.png)
 
-![image](https://user-images.githubusercontent.com/84031027/152697158-97877719-c307-46b1-b884-900c42bf06f0.png)
+![image](https://user-images.githubusercontent.com/84031027/159487284-55067fa2-e2d1-4003-8fc2-9fd68101d4f4.png)
 
-![image](https://user-images.githubusercontent.com/84031027/152697170-b84cc2a3-bdd3-4f81-931a-e9044e17d70c.png)
 
-![image](https://user-images.githubusercontent.com/84031027/152697187-59b547ad-2243-4d22-87e3-c9aec2c0d24e.png)
+# Image Slider
 
-![image](https://user-images.githubusercontent.com/84031027/152697199-0ce9dde9-46d0-427b-a12d-8f9f8fbc4df9.png)
+Display images inside images folder.
 
-![image](https://user-images.githubusercontent.com/84031027/152697215-cc53e150-5635-48dc-89d1-ef532b85113a.png)
+![image](https://user-images.githubusercontent.com/84031027/159487803-5fe6dd4d-fa69-45da-a2f1-0adf018a2c0d.png)
+
+![image](https://user-images.githubusercontent.com/84031027/159487843-544f03ca-d730-48ef-bde2-fc7083baa414.png)
+
+
+Enjoy :)
 
