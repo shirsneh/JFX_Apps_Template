@@ -3,11 +3,11 @@
 
 Please run jar file with command line : java -jar JFXApps.jar or double click on the file.
 
-Main Screen: 
+# Main Screen: 
 
 ![image](https://user-images.githubusercontent.com/84031027/159486917-30bc5e29-edbf-4644-9297-53e7df0de69f.png)
 
-#Clock
+# Clock
 
 Running Digital clock:
 
