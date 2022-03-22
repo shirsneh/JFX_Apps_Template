@@ -1,4 +1,4 @@
-package org.example;
+package org.example.ImageSlider;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -24,20 +24,9 @@ public class ImageSlider{
 
 
     @FXML
-    // This method is called by the FXMLLoader when initialization is complete
     void initialize() {
-        // images in image folder.
-        try {
+       //add code here to load images.
 
-            images = new Image[numOfImages];
-            for (int i = 0; i < numOfImages; i++) {
-                File file = new File("C:\\Users\\User\\IdeaProjects\\JFXApps\\src\\main\\resources\\images\\"+i+".jpg");
-                images[i] =  new Image(file.toURI().toString());
-            }
-            imageView.setImage(images[j]);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
     @FXML
