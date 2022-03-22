@@ -16,15 +16,7 @@ public class ClockController {
 
     @FXML// This method is called by the FXMLLoader when initialization is complete
     void initialize() {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
-        Timeline clock = new Timeline(new KeyFrame(Duration.ZERO, e -> {
-            LocalTime currentTime = LocalTime.now();
-            times.setText(currentTime.format(dtf));
-        }),
-                new KeyFrame(Duration.seconds(1))
-        );
-        clock.setCycleCount(Animation.INDEFINITE);
-        clock.play();
+        //add code here
     }
 
 }
