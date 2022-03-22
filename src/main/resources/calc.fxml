@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" styleClass="body" stylesheets="@style.css" vgap="10" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Calculator.CalculatorController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <AnchorPane prefHeight="350.0" prefWidth="310.0">
+      <TextField fx:id="mainTF" layoutX="16.0" layoutY="21.0" onAction="#calc" prefHeight="55.0" prefWidth="282.0" style="-fx-background-color:transparent; -fx-border-color: #ADD8E6;-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );" />
+      <Button fx:id="clearBtn" layoutX="234.0" layoutY="94.0" mnemonicParsing="false" onAction="#ClearExp" prefHeight="30.0" prefWidth="50.0" text="Clear" />
+      <Button fx:id="aBtn" layoutX="29.0" layoutY="92.0" mnemonicParsing="false" onAction="#pressA" prefHeight="30.0" prefWidth="50.0" stylesheets="@style.css" text="A" />
+      <Button fx:id="bBtn" layoutX="29.0" layoutY="141.0" mnemonicParsing="false" onAction="#pressB" prefHeight="30.0" prefWidth="50.0" text="B" />
+      <Button fx:id="cBtn" layoutX="29.0" layoutY="183.0" mnemonicParsing="false" onAction="#pressC" prefHeight="30.0" prefWidth="50.0" text="C" />
+      <Button fx:id="dBtn" layoutX="29.0" layoutY="226.0" mnemonicParsing="false" onAction="#pressD" prefHeight="30.0" prefWidth="50.0" text="D" />
+      <Button fx:id="eBtn" layoutX="29.0" layoutY="269.0" mnemonicParsing="false" onAction="#pressE" prefHeight="30.0" prefWidth="50.0" text="E" />
+      <Button fx:id="fBtn" layoutX="29.0" layoutY="312.0" mnemonicParsing="false" onAction="#pressF" prefHeight="30.0" prefWidth="50.0" text="F" />
+      <Button fx:id="threeBtn" layoutX="233.0" layoutY="141.0" mnemonicParsing="false" onAction="#pressThree" prefHeight="30.0" prefWidth="50.0" text="3" />
+      <Button fx:id="twoBtn" layoutX="175.0" layoutY="141.0" mnemonicParsing="false" onAction="#pressTwo" prefHeight="30.0" prefWidth="50.0" text="2" />
+      <Button fx:id="oneBtn" layoutX="115.0" layoutY="141.0" mnemonicParsing="false" onAction="#presssOne" prefHeight="30.0" prefWidth="50.0" text="1" />
+      <Button fx:id="fourBtn" layoutX="115.0" layoutY="183.0" mnemonicParsing="false" onAction="#pressFour" prefHeight="30.0" prefWidth="50.0" text="4" />
+      <Button fx:id="fiveBtn" layoutX="175.0" layoutY="183.0" mnemonicParsing="false" onAction="#pressFive" prefHeight="30.0" prefWidth="50.0" text="5" />
+      <Button fx:id="sixBtn" layoutX="234.0" layoutY="183.0" mnemonicParsing="false" onAction="#pressSix" prefHeight="30.0" prefWidth="50.0" text="6" />
+      <Button fx:id="sevenBtn" layoutX="115.0" layoutY="226.0" mnemonicParsing="false" onAction="#pressSeven" prefHeight="30.0" prefWidth="50.0" text="7" />
+      <Button fx:id="eightBtn" layoutX="175.0" layoutY="226.0" mnemonicParsing="false" onAction="#pressEight" prefHeight="30.0" prefWidth="50.0" text="8" />
+      <Button fx:id="nineBtn" layoutX="234.0" layoutY="226.0" mnemonicParsing="false" onAction="#pressNine" prefHeight="30.0" prefWidth="50.0" text="9" />
+      <Button fx:id="zeroBtn" layoutX="233.0" layoutY="269.0" mnemonicParsing="false" onAction="#pressZero" prefHeight="30.0" prefWidth="50.0" text="0" />
+      <Button fx:id="plusBtn" layoutX="115.0" layoutY="269.0" mnemonicParsing="false" onAction="#pressPlus" prefHeight="30.0" prefWidth="50.0" text="+" />
+      <Button fx:id="subBtn" layoutX="175.0" layoutY="269.0" mnemonicParsing="false" onAction="#pressSub" prefHeight="30.0" prefWidth="50.0" text="-" />
+      <Button fx:id="mulBtn" layoutX="115.0" layoutY="312.0" mnemonicParsing="false" onAction="#pressMul" prefHeight="30.0" prefWidth="50.0" text="*" />
+      <Button fx:id="solveBtn" layoutX="233.0" layoutY="312.0" mnemonicParsing="false" onAction="#calc" prefHeight="30.0" prefWidth="50.0" text="=" />
+      <Button fx:id="divBtn" layoutX="175.0" layoutY="312.0" mnemonicParsing="false" onAction="#pressDiv" prefHeight="30.0" prefWidth="50.0" text="/" />
+      <ComboBox fx:id="baseList" layoutX="115.0" layoutY="97.0" onAction="#switchBase" prefHeight="26.0" prefWidth="115.0" styleClass="combo-box" stylesheets="@style.css" />
+   </AnchorPane>
+</GridPane>

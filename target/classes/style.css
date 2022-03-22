@@ -1,0 +1,79 @@
+.body {
+    -fx-background-color: #ADD8E6;
+}
+
+.label {
+    -fx-font-size: 24px;
+    -fx-font-family: Bodoni MT;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.input {
+    -fx-background-color: transparent;
+    -fx-border-color: aliceblue;
+    -fx-font-family: Bodoni MT;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: transparent;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    margin: 15px -10px;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border-color: aliceblue;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-font-style: italic;
+    -fx-font-family: Bodoni MT;
+    width: 80px;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+}
+
+.combo-box{
+    -fx-background-color: transparent;
+    -fx-border-color: aliceblue;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+    -fx-font-style: italic;
+    -fx-font-family: Bodoni MT;
+    width: 80px;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+}
+
+.clock {
+    -fx-background-color: #ADD8E6;
+    -fx-border-color: aliceblue;
+    -fx-font-family: Bodoni MT;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-text-alignment: center;
+    border-radius: 5px;
+    -fx-font-size: 36px;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    margin: 15px -10px;
+}
+
+.image_view {
+    -fx-content-display: center;
+}
